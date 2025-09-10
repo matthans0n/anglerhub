@@ -1,0 +1,40 @@
+{
+  "name": "anglerhub-frontend",
+  "private": true,
+  "description": "AnglerHub PWA Frontend - Vue.js fishing companion app",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "type-check": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.14.2",
+    "@nuxtjs/google-fonts": "^3.0.2",
+    "@pinia/nuxt": "^0.5.1",
+    "@vite-pwa/nuxt": "^0.7.0",
+    "@vueuse/nuxt": "^10.7.2",
+    "nuxt": "^3.10.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "workbox-window": "^7.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@types/node": "^20.11.25",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
